@@ -65,10 +65,20 @@ void BubbleSort()
        }
 
        cout << "Pass ke -" << pass << ":\t";
+
        for (int k = 0; k < n; k++)
        {
             cout << a[k] << "\t";
        }
+
        cout << endl;
     }
+}
+
+int main()
+{
+    input();
+    display();
+    BubbleSort();
+    return 0;
 }
